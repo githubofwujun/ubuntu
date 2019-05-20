@@ -1,2 +1,2 @@
 FROM ubuntu:16.04
-RUN apt-get install -y iptables && iptables -nL
+RUN apt-get update -y && apt-get install -y iptables && iptables -nL
